@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  ;
+}
+
+body{
+    background-image:url(https://i0.wp.com/wp-cpr.s3.amazonaws.com/uploads/2019/11/bear2.jpg?fit=5616%2C3744&ssl=1&resize=854,569);
+    background-size: 100vw 100vh;
+    font-family: arial; 
+    
+  }
+  .menu{
+    font-size: 15px;
+    background-color:darkgray;
+    
+  }
+  a{
+    text-decoration:none;
+    Font-size:18px;
+      color: black;
+  }
+  a:hover{
+    text-decoration:overline underline;
+    text-decoration-color: green;
+    text-decoration-style: double ;
+  }
+  
+  .menu li {
+    list-style:none;
+    
+  }
+  .menu ul {
+    display: flex; 
+     flex-direction: row-reverse; 
+    justify-content: space-around;
+  }
+  .site-title{
+    color:teal;
+    text-align:center;
+    font-style: italic;
+    font-size: 32px;
+   
+    }
+  .site-subtitle{
+    Color:teal;
+    text-align: right;
+  
+  }
+  
