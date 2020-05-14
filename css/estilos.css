@@ -11,6 +11,10 @@ body{
     font-family: arial; 
     
   }
+ header{
+    height: 100vh
+    ;
+  }
   .menu{
     font-size: 15px;
     background-color:darkgray;
